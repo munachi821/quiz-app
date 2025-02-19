@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Quiz App in JavaScript</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/fontawesome-free-6.4.2-web/css/all.min.css">
 </head>
 <body>
     <!--Quiz Configuration Container-->
@@ -37,5 +38,41 @@
         <button class="start-quiz-btn">Start Quiz</button>
     </div>
 
+    <!--Quiz Container-->
+    <div class="quiz-container">
+        <header class="quiz-header">
+            <h2 class="quiz-title">Quiz Application</h2>
+            <div class="quiz-timer">
+                <span class="fas fa-stopwatch"></span>
+                <p class="time-duration">15s</p>
+            </div>
+        </header>
+
+        <div class="quiz-content">
+            <h1 class="quiz-question">In javascript, how do you create a function?</h1>
+            <ul class="answer-options">
+                <li class="answer-option">
+                    <p>create function myfunction()</p>
+                </li>
+                <li class="answer-option">
+                    <p>create function myfunction()</p>
+                </li>
+                <li class="answer-option">
+                    <p>create function myfunction()</p>
+                </li>
+                <li class="answer-option">
+                    <p>create function myfunction()</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="quiz-footer">
+            <p class="question-status"><b>2</b> of <b>10</b> Questions </p>
+            <button class="next-question-btn">
+                Next
+                <span class="fas fa-arrow-right"></span>
+            </button>
+        </div>
+    </div>
 </body>
 </html>
