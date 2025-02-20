@@ -27,8 +27,8 @@
         <div class="config-option">
             <h4 class="option-title">No. of Questions</h4>
             <div class="question-options">
-                <button class="question-option">5</button>
-                <button class="question-option active">10</button>
+                <button class="question-option active">5</button>
+                <button class="question-option">10</button>
                 <button class="question-option">15</button>
                 <button class="question-option">20</button>
                 <button class="question-option">25</button>
@@ -49,27 +49,12 @@
         </header>
 
         <div class="quiz-content">
-            <h1 class="question-text">In javascript, how do you create a function?</h1>
-            <ul class="answer-options">
-                <li class="answer-option">
-                    <p>create function myfunction()</p>
-                </li>
-                <li class="answer-option correct">
-                    <p>create function myfunction()</p>
-                    <span class="fas fa-check-circle"></span>
-                </li>
-                <li class="answer-option incorrect">
-                    <p>create function myfunction()</p>
-                    <span class="fas fa-times-circle"></span>
-                </li>
-                <li class="answer-option">
-                    <p>create function myfunction()</p>
-                </li>
-            </ul>
+            <h1 class="question-text"></h1>
+            <ul class="answer-options"></ul>
         </div>
 
         <div class="quiz-footer">
-            <p class="question-status"><b>2</b> of <b>10</b> Questions </p>
+            <p class="question-status"></p>
             <button class="next-question-btn">
                 Next
                 <span class="fas fa-arrow-right"></span>
@@ -81,8 +66,11 @@
     <div class="result-container">
         <img src="quiz-over.png" alt="congratulation pic" class="result-img">
         <h2 class="result-title">Quiz Completed!</h2>
-        <p class="result-message">You answered <b>3</b> out of <b>5</b> question correctly. Great effort</p>
+        <p class="result-message"></p>
         <button class="try-again-btn">Try Again</button>
     </div>
+
+    <script src="javascript/questions.js"></script>
+    <script src="javascript/script.js"></script>
 </body>
 </html>
